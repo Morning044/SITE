@@ -5,84 +5,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <title>Tropicália</title>
+    <title>Nirvana - A Banda</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header class=" p-5">
-
+    <header class="p-5">
         <nav class="container d-flex justify-content-between align-items-center">
-            <img src="img/logo.png" alt="Logotipo da Tropicália" class="nav-img " loading="lazy">
+            <img src="img/logo.png" alt="Logotipo da Nirvana" class="nav-img " loading="lazy">
             <ul class="nav mt-5">
                 <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#nirvana">Sobre Nirvana</a></li>
                 <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
-                <li class="nav-item"><a class="nav-link" href="#nirvana">Nirvana</a></li> <!-- Nova opção no menu -->
-            </ul>          
+            </ul>
         </nav>
-       
     </header>
 
     <main class="container my-5">
-
         <section id="inicio" class="my-5">
             <div class="inicio-fundo d-flex justify-content-between align-items-center">
                 <div class="esquerda-conteudo">
-                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
-                    <img src="img/logo-2.png" alt="Logotipo secundário da Tropicália" class="mb-3" width="563"
-                        height="278" loading="lazy">
-                    <a href="#tropicalia"
-                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
-                        conhecer!</a>
-                </div>
-
-            </div>
-        </section>
-
-        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia">
-            <div class="container d-flex align-items-center ">
-                  <div class="col-5">
-                    <h2>O que foi a Tropicália?</h2>
-                    <p class="p-2">A Tropicália, também conhecida como Tropicalismo, foi um movimento cultural
-                        brasileiro que surgiu na década de 1960, tendo seu auge entre 1967 e 1968. Esse movimento
-                        abrangeu várias expressões artísticas, como a música, o cinema, o teatro e as artes plásticas, e
-                        teve como principal característica a mistura de elementos da cultura brasileira tradicional com
-                        influências estrangeiras, especialmente do rock e da música pop.</p>
+                    <h1 class="display-4 text-white fst-italic fw-bold">Bem-vindo ao Mundo Nirvana</h1>
+                    <img src="img/nirvana-logo.png" alt="Logotipo da Nirvana" class="mb-3" width="563" height="278" loading="lazy">
+                    <a href="#nirvana" class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero saber mais!</a>
                 </div>
             </div>
         </section>
 
-        <section id="nirvana" class="my-5 pt-6">
-            <div class="container">
-                <h2 class="text-center">História da Banda Nirvana</h2>
-                <div class="row justify-content-center">
-                    <div class="col-md-6">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Nirvana_1993.jpg" 
-                            alt="Banda Nirvana - 1993" class="img-fluid rounded-5 mb-4" loading="lazy">
-                    </div>
-                    <div class="col-md-8">
-                        <p>A banda Nirvana foi uma das mais influentes da história do rock, especialmente no movimento grunge dos anos 90. Formada em 1987 por Kurt Cobain (vocal e guitarra) e Krist Novoselic (baixo), a banda ganhou fama mundial com seu segundo álbum, "Nevermind" (1991), que inclui o icônico single "Smells Like Teen Spirit".</p>
-                        <p>Com um som cru e introspectivo, que misturava elementos do punk rock e do heavy metal, o Nirvana tornou-se um símbolo da juventude alternativa e da disfunção social da época. O grupo teve uma carreira curta, mas muito impactante, com a morte de Cobain em 1994, aos 27 anos. Seu legado permanece vivo através de suas músicas, que continuam a influenciar novas gerações de músicos e fãs.</p>
-                    </div>
+        <!-- Seção sobre a banda Nirvana -->
+        <section id="nirvana" class="my-5 pt-6 secao-nirvana">
+            <div class="container d-flex align-items-center">
+                <div class="col-5">
+                    <h2>Sobre a Banda Nirvana</h2>
+                    <p class="p-2">Nirvana foi uma banda de rock americana formada em Aberdeen, Washington, em 1987. Composta por Kurt Cobain (vocal/guitarra), Krist Novoselic (baixo) e Dave Grohl (bateria), a banda foi um dos principais ícones do movimento grunge nos anos 90. Com seu álbum de 1991, *Nevermind*, a banda alcançou sucesso mundial, especialmente com o hit "Smells Like Teen Spirit". O Nirvana é considerado uma das maiores bandas de todos os tempos, influenciando gerações de músicos e fãs até hoje.</p>
+                    <p class="p-2">A carreira do Nirvana foi curta, com a morte de Cobain em 1994, mas seu legado perdura, com músicas que continuam sendo amadas por fãs ao redor do mundo.</p>
+                </div>
+                <div class="col-7">
+                    <img src="img/nirvana-band.jpg" alt="Nirvana - Banda" class="img-fluid rounded-5" loading="lazy">
                 </div>
             </div>
         </section>
 
         <section id="galeria">
             <h2 class="text-center pt-5">Galeria</h2>
-            <div class="container p-3 mt-3 fundo-galeria ">
-
+            <div class="container p-3 mt-3 fundo-galeria">
                 <div class="row justify-content-md-center">
                     <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Jorge_Ben_e_o_Trio_Mocotó_no_Teatro_da_Lagoa,_1971.tif.jpg"
-                            class="img-fluid rounded-5" loading="lazy">
+                        <img src="img/nirvana-concert.jpg" class="img-fluid rounded-5" loading="lazy">
                     </div>
                     <div class="col-md-4">
-                        <img src="img/lossy-page1-640px-Os_Mutantes_2.tif.jpg" class="img-fluid rounded-5"
-                            loading="lazy">
+                        <img src="img/nirvana-cobain.jpg" class="img-fluid rounded-5" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -90,7 +65,7 @@
 
         <section id="contato">
             <div class="container p-5 d-flex justify-content-center">
-                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                <div class="col-md-8 col-lg-10 rounded-5 formulario">
                     <h2 class="mb-3">Entre em contato</h2>
                     <form>
                         <div class="form-group mb-3">
@@ -117,6 +92,7 @@
             </div>
         </section>
     </main>
+
     <footer class="text-center p-3 fst-italic">
         <p>Acesse nossas redes:</p>
         <i class="bi bi-whatsapp"></i>
