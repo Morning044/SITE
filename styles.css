@@ -91,6 +91,9 @@ header .nav-item a:hover {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Galeria */
@@ -185,4 +188,41 @@ footer i:hover {
 footer p {
     margin-top: 10px;
     font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    /* Seção sobre Nirvana */
+    #nirvana h2 {
+        font-size: 2rem;
+    }
+
+    #nirvana p {
+        font-size: 1rem;
+    }
+
+    /* Galeria */
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .col-md-4 img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Formulário de Contato */
+    .formulario {
+        padding: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem;
+    }
+
+    button.btn {
+        font-size: 1rem;
+    }
 }
